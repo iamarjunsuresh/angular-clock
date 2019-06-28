@@ -1,0 +1,24 @@
+.cover{
+overflow: auto;
+    background-color: lightgray;
+    border-radius: 5px;
+width:100px;
+height:100px;
+margin:0px;
+}
+
+.innersquare{
+    margin:10%;
+width:80%;
+height:80%;
+background-color: white;
+}
+.innersquare span{
+    text-align: center;
+    width:100%;
+    height:100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+font-size: 3.9em;
+
+}
