@@ -9,6 +9,7 @@ export class ClockComponent implements OnInit {
 hour:number;
 minutes:number;
 seconds:number;
+
   constructor() {
 this.seconds=5;
 this.hour=1;
