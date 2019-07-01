@@ -1,0 +1,7 @@
+.parent {
+    display: flex;
+    height: 300px; /* Or whatever */
+    width:100%;
+    flex-direction: row;
+    justify-content: space-around;
+  }

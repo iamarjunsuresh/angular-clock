@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NumberdisplayComponent } from './numberdisplay/numberdisplay.component';
+import { ClockComponent } from './clock/clock.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NumberdisplayComponent
+    NumberdisplayComponent,
+    ClockComponent
   ],
   imports: [
     BrowserModule
