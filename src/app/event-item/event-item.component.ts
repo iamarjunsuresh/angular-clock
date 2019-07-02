@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'event',
@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./event-item.component.css']
 })
 export class EventItemComponent implements OnInit {
-title:string;
+@Input("title") title:string;
+
 timeoflaunch:string
   constructor() {
-this.title="Title long title"
+
 
 this.timeoflaunch="11/12/2019 6:40 pm"
    }
