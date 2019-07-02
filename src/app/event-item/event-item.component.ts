@@ -7,12 +7,11 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class EventItemComponent implements OnInit {
 @Input("title") title:string;
+@Input("ldate") timeoflaunch:string;
 
-timeoflaunch:string
   constructor() {
 
 
-this.timeoflaunch="11/12/2019 6:40 pm"
    }
 
   ngOnInit() {
