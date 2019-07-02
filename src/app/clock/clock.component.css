@@ -1,5 +1,9 @@
+
 numberdisplay{
-    float:left;
-    margin:10px;
-    
+    float: left;
+
+}
+.parent{
+
+    margin : 10px;
 }

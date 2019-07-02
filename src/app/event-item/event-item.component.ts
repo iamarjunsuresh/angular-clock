@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./event-item.component.css']
 })
 export class EventItemComponent implements OnInit {
-name:string;
+title:string;
+timeoflaunch:string
   constructor() {
-this.name="Title long title"
+this.title="Title long title"
 
+this.timeoflaunch="11/12/2019 6:40 pm"
    }
 
   ngOnInit() {
