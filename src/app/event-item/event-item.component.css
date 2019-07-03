@@ -3,18 +3,25 @@
     background:#ddeedd;
 
     margin:10px;
-    padding:1em;
+    padding:01em;
     width:100%;
     float: left;
 
 }
+.agency{
 
+color:#008e00;
+font-weight: bold;
+}
+.timeoflaunch{
+margin-left: 50%;
+}
 span{
-    width:100%;
+    width:auto;
     height: 100%;
     font-size:2em;
     font-family: 'Courier New', Courier, monospace;
 }
 clock{
     float: right;
-}
+} 

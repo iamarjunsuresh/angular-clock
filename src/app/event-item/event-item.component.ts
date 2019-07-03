@@ -8,9 +8,9 @@ import { Component, OnInit, Input } from '@angular/core';
 export class EventItemComponent implements OnInit {
 @Input("title") title:string;
 @Input("ldate") timeoflaunch:string;
-
+launch_agency:string;
   constructor() {
-
+this.launch_agency="NASA";
 
    }
 
